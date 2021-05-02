@@ -4,8 +4,6 @@ MAINTAINER DJG
 
 ENV PYTHONUNBUFFERED 1
 
-COPY pip.conf /root/.pip/pip.conf
-
 RUN mkdir -p /var/www/html/du
 
 WORKDIR /var/www/html/du
